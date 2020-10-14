@@ -1267,7 +1267,7 @@ namespace Malee.List {
 
 			if (element.isInstantiatedPrefab) {
 
-				menu.AddItem(new GUIContent($"Revert { GetElementLabel(element, true).text } to Prefab"), false, selection.RevertValues, list);
+				menu.AddItem(new GUIContent("Revert" + GetElementLabel(element, true).text + "to Prefab"), false, selection.RevertValues, list);
 				menu.AddSeparator(string.Empty);
 			}
 
